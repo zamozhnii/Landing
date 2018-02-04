@@ -1,0 +1,400 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .container {
+        width: 900px;
+    }
+    .navigation__logo-menu-wrap {
+        width: 100%;
+        height: 100vh;
+    }
+    .maincontent__fp-design-develop-wrap {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        padding-top: 500px;
+    }
+    .navigation__menu-link {
+        font-size: 20px;
+    }
+    .maincontent__fp-design-develop-title {
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+    .maincontent__fp-design-descr-wrap {
+        width: 400px;
+        padding-bottom: 50px;
+    }
+    .maincontent__fp-design-descr {
+        font-size: 24px;
+    }
+    .modal-img {
+        width: 100%;
+        height: 700px;
+        padding: 25px;
+    }
+    .maincontent__our-spec-item:nth-child(4),
+    .maincontent__our-spec-item:nth-child(8), 
+    .maincontent__our-spec-item {
+        margin: 0 20px;
+    }
+    .maincontent__our-spec-item:nth-child(7) {
+        margin-left: 170px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 700px;
+    }
+    .navigation__menu-link {
+        font-size: 14px;
+    }
+    .navigation__logo-menu-wrap {
+        width: 100%;
+        height: 100vh;
+    }
+    .maincontent__fp-design-develop-wrap {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        padding-top: 300px;
+    }
+    .maincontent__fp-design-descr-wrap {
+        width: 350px;
+    }
+    .maincontent__sp-about-descr {
+        margin: 0;
+        width: 400px;   
+    }
+    .maincontent__our-works-projects-compl {
+        margin-right: 90px;
+        padding: 40px 0;
+    }
+    .modal-img {
+        width: 100%;
+        height: 600px;
+        padding: 25px;
+    }
+    
+    .maincontent__our-spec-wrap {
+        text-align: center;
+        -webkit-align-content: center;
+            -ms-flex-line-pack: center;
+                align-content: center;
+    }
+
+    .maincontent__our-spec-item:nth-child(7),
+    .maincontent__our-spec-item:nth-child(4),
+    .maincontent__our-spec-item:nth-child(8),
+    .maincontent__our-spec-item {
+        margin: 0 40px;
+        text-align: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .maincontent__quote-wrap {
+        height: 350px;
+    }
+    .maincontent__quote-descr {
+        padding: 60px 20px;
+    }
+    .maincontent__quote-hopkins-title {
+        padding-top: 0;
+    }
+    .maicontent__order-descr {
+        padding: 32px 50px;
+    }
+    .footer__links-list:nth-child(2) {
+        padding-right: 35px;
+    }
+
+
+}
+@media screen and (max-width: 760px) {
+    .container {
+        width: 0;
+    }
+    .navigation__logo-menu-wrap {
+        width: 100%;
+        height: 100vh;
+    }
+        .navigation__nav-menu-list {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+        }
+        .navigation__menu-list-link {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column nowrap;
+                -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+            text-align: center;
+            padding: 0;
+        }
+            .navigation__menu-link {
+                font-size: 30px;
+            }
+            .navigation__menu-item {
+                padding: 0;
+                margin-bottom: 5px;
+
+            }
+        .navigation__logo-wrap {
+            padding: 30px 0;
+        }
+
+    .maincontent__fp-design-develop-wrap {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+        .maincontent__fp-design-develop-title {
+            font-size: 18px;
+            padding: 0;
+            margin-top: 30px;
+            width: 350px;
+        }
+        .maincontent__fp-design-descr-wrap {
+            width: 350px;
+        }
+        .maincontent__fp-design-descr {
+            padding: 0;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .maincontent__fp-contact-us-btn {
+            margin: 0;
+            padding: 10px 25px;
+        }
+.maincontent__sp-about-us {
+    text-align: center;
+}
+    .maincontent__sp-about-title {
+        margin: 0;
+        width: 200px;
+        padding-top: 40px;
+    }
+    .maincontent__sp-about-descr {
+        margin: 0;
+        width: 200px;   
+    }
+    .maincontent__sp-about-img-signature {
+        padding-bottom: 50px;
+    }
+.maincontent__sp-professiona-skills-full-wrap {
+    width: 100%;
+    text-align: center;
+}
+    .maincontent__sp-professiona-skills-full {
+        width: 100%;
+    }
+.maincontent__sp-professiona-skills-empty-wrap {
+    display: none;
+}
+    .maincontent__sp-professional-skills-title {
+        padding: 40px 0 0 0;
+    }
+    .maincontent__sp-professional-skills-descr-title {
+        padding: 40px 0 0 0;
+    }
+    .maincontent__sp-professional-skills-descr-line-market {
+        margin-bottom: 40px;
+    }
+
+.maicontent__our-works-exp {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+    .maincontent__our-works-projects-compl {
+        padding: 0;
+        margin-top: 30px;
+    }
+.maincontent__works-process-wrap {
+    text-align: center;
+}
+    .maincontent__works-process-title {
+        width: 300px;
+        padding-top: 40px;
+        font-size: 24px;
+    }
+    .maincontent__works-process-descr {
+        width: 300px;
+        padding-top: 20px;
+    }
+    .maincontent__works-process-video {
+        width: 300px;
+        height: 200px;
+        margin: 20px 0;
+    }
+
+.maincontent__our-spec-wrap {
+    padding: 20px 0;
+    text-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+    .maincontent__our-spec-item:nth-child(7),
+    .maincontent__our-spec-item:nth-child(4),
+    .maincontent__our-spec-item:nth-child(8),
+    .maincontent__our-spec-item {
+        margin: 0;
+        padding: 10px 0;
+        width: 1px;
+    }
+    .maincontent__our-spec-img-wrap {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .maincontent__our-spec-descr-wrap {
+        width: 300px;
+    }
+.maincontent__quote-wrap {
+    height: 300px;
+}
+    .maincontent__quote-descr {
+        padding: 20px 0;
+        font-size: 16px;
+        width: 300px;
+    }
+    .maincontent__quote-hopkins-title {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+.maincontent__emblems-wrap {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+    .maincontent__emblems-img {
+        padding-top: 20px;
+    }
+        .maincontent__emblems-img:first-child {
+            padding: 0;
+        }
+        .maincontent__emblems-img:last-child {
+            padding: 20px 0 0 0;
+        }
+.maincontent__order-wrap {
+    text-align: center;
+}
+    .maincontent__order-wrap {
+        padding-top: 40px;
+    }
+        .maincontent__order-title {
+            width: 300px;
+        }
+        .maicontent__order-descr {
+            padding: 20px 0 0 0;
+            width: 300px;
+        }
+        .maincontent__order-form-name {
+            margin: 0;
+            width: 300px;
+            height: 40px;
+        }
+        .maincontent__order-form-email {
+            margin-top: 20px;
+            width: 300px;
+            height: 40px;
+        }
+        .maincontent__order-form-title {
+            width: 300px;
+            height: 40px;
+        }
+        .maincontent__order-title-wrap {
+            margin-top: 20px;
+        }
+        .maincontent__order-comment-wrap {
+            margin-top: 20px;
+        }
+        .maincontent__order-form-comment {
+            width: 300px;
+        }
+        .maincontent__order-form-btn {
+            padding: 6px 15px;
+        }
+
+.footer__inc-address-links-wrap {
+    padding: 20px 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+}
+    .footer__inc-title {
+        padding-top: 10px;
+        width: 300px;
+        margin-bottom: 0;
+    }
+    .footer__inc-descr-copyr {
+        padding-top: 10px;
+    }
+    .footer__links-wrap {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+        margin: 20px;
+    }
+    .footer__links-list:last-child {
+        padding: 0;
+    }
+    .footer__links-list:nth-child(2) {
+        padding: 0;
+        margin-right: 20px;
+    }
+    .footer__links-list:first-child {
+        margin-right: 20px;
+        padding: 0;
+    }
+    .footer__inc-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column;
+            -ms-flex-flow: column;
+                flex-flow: column;
+    }
+    .modal { 
+
+    }
+    .modal-img {
+        width: 100%;
+        height: 300px;
+    }
+}
+

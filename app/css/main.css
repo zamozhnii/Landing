@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p {
     -webkit-background-size: cover;
             background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;   
+    min-height: 100vh;   
 }
     .navigation__nav-menu-list {
         display: -webkit-box;
